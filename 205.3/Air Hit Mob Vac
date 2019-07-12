@@ -26,12 +26,12 @@ push -01
 jmp return
 
 
-017FE640: //55 8B EC 6A FF 68 ? ? ? ? 64 A1 00 00 00 00 50 81 EC ? ? ? ? A1 ? ? ? ? 33 C5 89 45 ? 53 ? ? 50 8D 45 F4 64 A3 00 00 00 00 8B D9 89 9D 1C FF FF FF
+017FE950: //55 8B EC 6A FF 68 ? ? ? ? 64 A1 00 00 00 00 50 81 EC ? ? ? ? A1 ? ? ? ? 33 C5 89 45 ? 53 ? ? 50 8D 45 F4 64 A3 00 00 00 00 8B D9 89 9D 1C FF FF FF
 jmp hook
 return:
 
 [DISABLE]
-017FE640:
+017FE950:
 push ebp
 mov ebp,esp
 push -01
